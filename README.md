@@ -206,7 +206,7 @@ micrortps_agent is compiled and prepared to work by running it.
 
 ## Getting started
 
-* git clone -b melodic --recurse-submodules -j8 https://gitlab.com/ravinspect/px4_micrortps_ros.git
+* git clone -b melodic --recurse-submodules -j8 https://github.com/Ravinspect/px4_micrortps_ros
 * cd px4_micrortps_ros
 * git submodule update --remote
 
