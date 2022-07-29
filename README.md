@@ -15,7 +15,7 @@ Tested on our enviroment and hardware.
   
 # Hardware
 
-* Pixhawk mini 4
+* FMUv5
 * Jetson Xavier / Ubuntu Linux
 * Telem to USB converter
   
