@@ -223,4 +223,11 @@ micrortps_agent is compiled and prepared to work by running it.
 roslaunch px4_micrortps_ros px4_sitl_rtps.launch 
 
 
+# References
+1. https://github.com/PX4/PX4-Autopilot
+2. https://docs.px4.io/v1.12/en/middleware/micrortps.html
+3. https://github.com/PX4/px4_ros_com
+4. https://github.com/mavlink/mavros/tree/master
+5. https://mavlink.io/en/messages/common.html 
+6. https://discuss.px4.io/      (MAVROS/RTPS/ROS2 Category)
 
