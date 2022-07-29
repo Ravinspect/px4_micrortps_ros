@@ -1,0 +1,10 @@
+<launch>
+
+	<node name="micrortps_agent_runner_test" pkg="px4_micrortps_ros" type="micrortps_agent_runner_test.sh" respawn="true"/>
+
+    <!-- RUN ALL NODELETS -->
+    <include file="$(find px4_micrortps_ros)/launch/all_nodelets.launch">        
+        <arg name="nodelet_manager_name" default="standalone_nodelet"/>
+    </include>
+
+</launch>

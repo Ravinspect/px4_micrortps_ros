@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_position_setpoint_triplet"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="PositionSetpointTripletSubscriberNodelet" 
+        args="load px4_micrortps_ros/PositionSetpointTripletSubscriberNodelet manager_position_setpoint_triplet" 
+        output="screen">
+  </node>
+	
+
+</launch>

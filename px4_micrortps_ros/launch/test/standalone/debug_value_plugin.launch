@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_debug_value"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="DebugValueSubscriberNodelet" 
+        args="load px4_micrortps_ros/DebugValueSubscriberNodelet manager_debug_value" 
+        output="screen">
+  </node>
+	
+
+</launch>

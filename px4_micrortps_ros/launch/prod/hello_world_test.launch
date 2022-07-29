@@ -1,0 +1,22 @@
+<launch>
+  <node pkg="nodelet"
+        type="nodelet"
+        name="standalone_nodelet" 
+        args="manager"
+        output="screen"
+  />
+ 
+  <node pkg="nodelet"
+        type="nodelet"
+        name="Hello_World"
+        args="load px4_micrortps_ros/Hello_World standalone_nodelet"
+        output="screen"
+  />
+
+    <node pkg="nodelet"
+        type="nodelet"
+        name="Hello_World1"
+        args="load px4_micrortps_ros/Hello_World1 standalone_nodelet"
+        output="screen"
+  />
+</launch>

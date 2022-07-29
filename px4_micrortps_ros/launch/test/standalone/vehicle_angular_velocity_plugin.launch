@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_vehicle_angular_velocity"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="VehicleAngularVelocityPublisherNodelet" 
+        args="load px4_micrortps_ros/VehicleAngularVelocityPublisherNodelet manager_vehicle_angular_velocity" 
+        output="screen">
+  </node>		
+	
+
+</launch>

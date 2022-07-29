@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_vehicle_control_mode"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="VehicleControlModePublisherNodelet" 
+        args="load px4_micrortps_ros/VehicleControlModePublisherNodelet manager_vehicle_control_mode" 
+        output="screen">
+  </node>		
+	
+
+</launch>

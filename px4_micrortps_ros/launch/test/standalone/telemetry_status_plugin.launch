@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_telemetry_status"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="TelemetryStatusSubscriberNodelet" 
+        args="load px4_micrortps_ros/TelemetryStatusSubscriberNodelet manager_telemetry_status" 
+        output="screen">
+  </node>
+	
+
+</launch>

@@ -1,0 +1,243 @@
+<library path="lib/libpx4_micrortps_ros">
+  <class name="px4_micrortps_ros/BatteryStatusPublisherNodelet" type="px4_micrortps_ros::BatteryStatusPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This nodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/CollisionConstraintsPublisherNodelet" type="px4_micrortps_ros::CollisionConstraintsPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This nodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/DebugArraySubscriberNodelet" type="px4_micrortps_ros::DebugArraySubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This nodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/DebugKeyValueSubscriberNodelet" type="px4_micrortps_ros::DebugKeyValueSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This nodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/DebugValueSubscriberNodelet" type="px4_micrortps_ros::DebugValueSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/DebugVectSubscriberNodelet" type="px4_micrortps_ros::DebugVectSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/DistanceSensorPublisherNodelet" type="px4_micrortps_ros::DistanceSensorPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  DistanceSensorPublisherNodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/InputRCPublisherNodelet" type="px4_micrortps_ros::InputRCPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/MavlinkLogPublisherNodelet" type="px4_micrortps_ros::MavlinkLogPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  MavlinkLogPublisherNodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/OffboardControlModePublisherNodelet" type="px4_micrortps_ros::OffboardControlModePublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/OnboardComputerStatusSubscriberNodelet" type="px4_micrortps_ros::OnboardComputerStatusSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/PositionSetpointSubscriberNodelet" type="px4_micrortps_ros::PositionSetpointSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/PositionSetpointTripletSubscriberNodelet" type="px4_micrortps_ros::PositionSetpointTripletSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/SatelliteInfoPublisherNodelet" type="px4_micrortps_ros::SatelliteInfoPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/SensorCombinedPublisherNodelet" type="px4_micrortps_ros::SensorCombinedPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/TelemetryStatusSubscriberNodelet" type="px4_micrortps_ros::TelemetryStatusSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/TimesyncPublisherNodelet" type="px4_micrortps_ros::TimesyncPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/TimesyncSubscriberNodelet" type="px4_micrortps_ros::TimesyncSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/TrajectoryBezierSubscriberNodelet" type="px4_micrortps_ros::TrajectoryBezierSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/TrajectorySetpointSubscriberNodelet" type="px4_micrortps_ros::TrajectorySetpointSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/TrajectoryWaypointPublisherNodelet" type="px4_micrortps_ros::TrajectoryWaypointPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleAngularVelocityPublisherNodelet" type="px4_micrortps_ros::VehicleAngularVelocityPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleAttitudePublisherNodelet" type="px4_micrortps_ros::VehicleAttitudePublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+
+  <class name="px4_micrortps_ros/VehicleCommandSubscriberNodelet" type="px4_micrortps_ros::VehicleCommandSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleControlModePublisherNodelet" type="px4_micrortps_ros::VehicleControlModePublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleLandDetectedPublisherNodelet" type="px4_micrortps_ros::VehicleLandDetectedPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  VehicleLandDetectedPublisherNodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleLocalPositionPublisherNodelet" type="px4_micrortps_ros::VehicleLocalPositionPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleLocalPositionSetpointSubscriberNodelet" type="px4_micrortps_ros::VehicleLocalPositionSetpointSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleMocapOdometrySubscriberNodelet" type="px4_micrortps_ros::VehicleMocapOdometrySubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleOdometryPublisherNodelet" type="px4_micrortps_ros::VehicleOdometryPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleTrajectoryBezierSubscriberNodelet" type="px4_micrortps_ros::VehicleTrajectoryBezierSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleStatusPublisherNodelet" type="px4_micrortps_ros::VehicleStatusPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleTrajectoryWaypointDesiredPublisherNodelet" type="px4_micrortps_ros::VehicleTrajectoryWaypointDesiredPublisherNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleTrajectoryWaypointSubscriberNodelet" type="px4_micrortps_ros::VehicleTrajectoryWaypointSubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleVisualOdometrySubscriberNodelet" type="px4_micrortps_ros::VehicleVisualOdometrySubscriberNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+          This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/Hello_World" type="px4_micrortps_ros::Hello_World" base_class_type="nodelet::Nodelet">
+    <description>
+        This nodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/Hello_World1" type="px4_micrortps_ros::Hello_World1" base_class_type="nodelet::Nodelet">
+    <description>
+        This  nodelet1 receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/DummyPositionGeneratorNodelet" type="px4_micrortps_ros::DummyPositionGeneratorNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+        This  DummyPositionGeneratorNodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleVisualOdometryManagerNodelet" type="px4_micrortps_ros::VehicleVisualOdometryManagerNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+        This  DummyPositionGeneratorNodelet receives a message and publishes it.
+    </description>
+  </class>
+
+  <class name="px4_micrortps_ros/VehicleLocalPositionManagerNodelet" type="px4_micrortps_ros::VehicleLocalPositionManagerNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+        This  VehicleLocalPositionManagerNodelet receives a message and publishes it.
+    </description>
+  </class>
+
+</library>

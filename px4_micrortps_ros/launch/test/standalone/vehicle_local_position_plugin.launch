@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+  <arg name="nodelet_manager_name" default="standalone_nodelet"/>
+  <!-- <node pkg="nodelet" type="nodelet" name="$(arg nodelet_manager_name)"  args="manager" output="screen"/> -->
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="VehicleLocalPositionPublisherNodelet" 
+        args="load px4_micrortps_ros/VehicleLocalPositionPublisherNodelet $(arg nodelet_manager_name)" 
+        output="screen">
+  </node>		
+	
+
+</launch>

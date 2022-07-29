@@ -1,0 +1,8 @@
+.history/
+.vscode/
+micrortps_agent/test/build/*
+micrortps_agent/prod/build/*
+../micrortps_agent/test/build/*
+../micrortps_agent/prod/build/*micrortps_agent/prod/px4_fmu-v5_rtps/build/
+micrortps_agent/prod/px4_fmu-v5_rtps/build/
+micrortps_agent/test/build/*
