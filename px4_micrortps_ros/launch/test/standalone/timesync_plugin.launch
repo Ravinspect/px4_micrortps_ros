@@ -1,0 +1,19 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_timesync"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="TimesyncPublisherNodelet" 
+        args="load px4_micrortps_ros/TimesyncPublisherNodelet manager_timesync" 
+        output="screen">
+  </node>
+	
+  <node pkg="nodelet" type="nodelet" name="TimesyncSubscriberNodelet" 
+        args="load px4_micrortps_ros/TimesyncSubscriberNodelet manager_timesync" 
+        output="screen">
+  </node>
+
+</launch>

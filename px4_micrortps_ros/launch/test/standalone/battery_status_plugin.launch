@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_battery_status"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="BatteryStatusPublisherNodelet" 
+        args="load px4_micrortps_ros/BatteryStatusPublisherNodelet manager_battery_status" 
+        output="screen">
+  </node>
+	
+
+</launch>

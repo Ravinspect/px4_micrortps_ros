@@ -1,0 +1,85 @@
+<launch>
+
+      <arg name="nodelet_manager_name" default="standalone_nodelet"/>
+
+      <node pkg="nodelet" type="nodelet" name="$(arg nodelet_manager_name)" args="manager" output="screen" />
+
+      <node pkg="nodelet" type="nodelet" name="BatteryStatusPublisherNodelet" args="load px4_micrortps_ros/BatteryStatusPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+ 
+      <!-- <node pkg="nodelet" type="nodelet" name="CollisionConstraintsPublisherNodelet" args="load px4_micrortps_ros/CollisionConstraintsPublisherNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="DebugArraySubscriberNodelet" args="load px4_micrortps_ros/DebugArraySubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="DebugKeyValueSubscriberNodelet" args="load px4_micrortps_ros/DebugKeyValueSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="DebugValueSubscriberNodelet" args="load px4_micrortps_ros/DebugValueSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="DebugVectSubscriberNodelet" args="load px4_micrortps_ros/DebugVectSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <node pkg="nodelet" type="nodelet" name="DistanceSensorPublisherNodelet" args="load px4_micrortps_ros/DistanceSensorPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <!-- <node pkg="nodelet" type="nodelet" name="InputRCPublisherNodelet" args="load px4_micrortps_ros/InputRCPublisherNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+     
+      <node pkg="nodelet" type="nodelet" name="MavlinkLogPublisherNodelet" args="load px4_micrortps_ros/MavlinkLogPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <node pkg="nodelet" type="nodelet" name="OffboardControlModePublisherNodelet" args="load px4_micrortps_ros/OffboardControlModePublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <!-- <node pkg="nodelet" type="nodelet" name="OnboardComputerStatusSubscriberNodelet" args="load px4_micrortps_ros/OnboardComputerStatusSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="OpticalFlowSubscriberNodelet" args="load px4_micrortps_ros/OpticalFlowSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="PositionSetpointSubscriberNodelet" args="load px4_micrortps_ros/PositionSetpointSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="PositionSetpointTripletSubscriberNodelet" args="load px4_micrortps_ros/PositionSetpointTripletSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="SatelliteInfoPublisherNodelet" args="load px4_micrortps_ros/SatelliteInfoPublisherNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="SensorCombinedPublisherNodelet" args="load px4_micrortps_ros/SensorCombinedPublisherNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="TelemetryStatusSubscriberNodelet" args="load px4_micrortps_ros/TelemetryStatusSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <node pkg="nodelet" type="nodelet" name="TimesyncPublisherNodelet" args="load px4_micrortps_ros/TimesyncPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <node pkg="nodelet" type="nodelet" name="TimesyncSubscriberNodelet" args="load px4_micrortps_ros/TimesyncSubscriberNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <!-- <node pkg="nodelet" type="nodelet" name="TrajectoryBezierSubscriberNodelet" args="load px4_micrortps_ros/TrajectoryBezierSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <node pkg="nodelet" type="nodelet" name="TrajectorySetpointSubscriberNodelet" args="load px4_micrortps_ros/TrajectorySetpointSubscriberNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <!-- <node pkg="nodelet" type="nodelet" name="TrajectoryWaypointPublisherNodelet" args="load px4_micrortps_ros/TrajectoryWaypointPublisherNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <node pkg="nodelet" type="nodelet" name="VehicleAngularVelocityPublisherNodelet" args="load px4_micrortps_ros/VehicleAngularVelocityPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <node pkg="nodelet" type="nodelet" name="VehicleAttitudePublisherNodelet" args="load px4_micrortps_ros/VehicleAttitudePublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <node pkg="nodelet" type="nodelet" name="VehicleCommandSubscriberNodelet" args="load px4_micrortps_ros/VehicleCommandSubscriberNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <!-- <node pkg="nodelet" type="nodelet" name="VehicleControlModePublisherNodelet" args="load px4_micrortps_ros/VehicleControlModePublisherNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <node pkg="nodelet" type="nodelet" name="VehicleLandDetectedPublisherNodelet" args="load px4_micrortps_ros/VehicleLandDetectedPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <node pkg="nodelet" type="nodelet" name="VehicleLocalPositionPublisherNodelet" args="load px4_micrortps_ros/VehicleLocalPositionPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <!-- <node pkg="nodelet" type="nodelet" name="VehicleLocalPositionSetpointSubscriberNodelet" args="load px4_micrortps_ros/VehicleLocalPositionSetpointSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="VehicleMocapOdometrySubscriberNodelet" args="load px4_micrortps_ros/VehicleMocapOdometrySubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <node pkg="nodelet" type="nodelet" name="VehicleOdometryPublisherNodelet" args="load px4_micrortps_ros/VehicleOdometryPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <node pkg="nodelet" type="nodelet" name="VehicleStatusPublisherNodelet" args="load px4_micrortps_ros/VehicleStatusPublisherNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <!-- <node pkg="nodelet" type="nodelet" name="VehicleTrajectoryBezierSubscriberNodelet" args="load px4_micrortps_ros/VehicleTrajectoryBezierSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="VehicleTrajectoryWaypointDesiredPublisherNodelet" args="load px4_micrortps_ros/VehicleTrajectoryWaypointDesiredPublisherNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <!-- <node pkg="nodelet" type="nodelet" name="VehicleTrajectoryWaypointSubscriberNodelet" args="load px4_micrortps_ros/VehicleTrajectoryWaypointSubscriberNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <node pkg="nodelet" type="nodelet" name="VehicleVisualOdometrySubscriberNodelet" args="load px4_micrortps_ros/VehicleVisualOdometrySubscriberNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <!-- <node pkg="nodelet" type="nodelet" name="DummyPositionGeneratorNodelet" args="load px4_micrortps_ros/DummyPositionGeneratorNodelet $(arg nodelet_manager_name)" output="screen" /> -->
+
+      <node pkg="nodelet" type="nodelet" name="VehicleVisualOdometryManagerNodelet" args="load px4_micrortps_ros/VehicleVisualOdometryManagerNodelet $(arg nodelet_manager_name)" output="screen" />
+
+      <node pkg="nodelet" type="nodelet" name="VehicleLocalPositionManagerNodelet" args="load px4_micrortps_ros/VehicleLocalPositionManagerNodelet $(arg nodelet_manager_name)" output="screen" />
+
+</launch>

@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_vehicle_mocap_odometry"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="VehicleMocapOdometrySubscriberNodelet" 
+        args="load px4_micrortps_ros/VehicleMocapOdometrySubscriberNodelet manager_vehicle_mocap_odometry" 
+        output="screen">
+  </node>
+	
+
+</launch>

@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+<node pkg="nodelet" type="nodelet" name="manager_sensor_combined"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="SensorCombinedPublisherNodelet" 
+        args="load px4_micrortps_ros/SensorCombinedPublisherNodelet manager_sensor_combined" 
+        output="screen">
+  </node>
+	
+
+</launch>

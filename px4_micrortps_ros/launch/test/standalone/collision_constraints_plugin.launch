@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <!-- <node pkg="nodelet" type="nodelet" name="manager_collision_constraints"  args="manager" output="screen"/> -->
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="CollisionConstraintsPublisherNodelet" 
+        args="load px4_micrortps_ros/CollisionConstraintsPublisherNodelet manager_battery_status" 
+        output="screen">
+  </node>
+	
+
+</launch>

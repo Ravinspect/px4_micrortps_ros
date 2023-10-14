@@ -1,0 +1,6 @@
+set +e
+
+# For UART communication over the IR/TELM2 port:
+micrortps_client start -d /dev/ttyS1 -b 460800 -t UART
+
+set -e

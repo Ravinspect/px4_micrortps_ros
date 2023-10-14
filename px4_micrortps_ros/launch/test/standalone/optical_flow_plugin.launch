@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_optical_flow"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="OpticalFlowSubscriberNodelet" 
+        args="load px4_micrortps_ros/OpticalFlowSubscriberNodelet manager_optical_flow" 
+        output="screen">
+  </node>
+	
+
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+
+	<node name="micrortps_agent_build_test" pkg="px4_micrortps_ros" type="micrortps_agent_build_test.sh"/>
+
+</launch>

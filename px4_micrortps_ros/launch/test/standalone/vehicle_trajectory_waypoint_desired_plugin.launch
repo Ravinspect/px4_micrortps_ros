@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_vehicle_trajectory_waypoint_desired"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="VehicleTrajectoryWaypointDesiredPublisherNodelet" 
+        args="load px4_micrortps_ros/VehicleTrajectoryWaypointDesiredPublisherNodelet manager_vehicle_trajectory_waypoint_desired" 
+        output="screen">
+  </node>
+	
+
+</launch>

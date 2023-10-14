@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Started nodelet manager -->
+
+  <node pkg="nodelet" type="nodelet" name="manager_input_rc"  args="manager" output="screen"/>
+
+<!-- Starting first nodelet -->
+
+  <node pkg="nodelet" type="nodelet" name="InputRCPublisherNodelet" 
+        args="load px4_micrortps_ros/InputRCPublisherNodelet manager_input_rc" 
+        output="screen">
+  </node>		
+	
+
+</launch>
