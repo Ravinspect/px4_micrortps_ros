@@ -11,6 +11,7 @@ https://docs.px4.io/master/en/dev_setup/fast-dds-installation.html
 
 ----
 
+
 Tested on our enviroment and hardware.
 
 # Environment
@@ -27,6 +28,7 @@ Tested on our enviroment and hardware.
 # Hardware
 
 * FMUv5
+
 * Jetson Xavier / Ubuntu Linux
 * Telem to USB converter
   
@@ -207,6 +209,7 @@ micrortps_agent is compiled and prepared to work by running it.
 ## Getting started
 
 * git clone -b melodic --recurse-submodules -j8 https://github.com/Ravinspect/px4_micrortps_ros
+
 * cd px4_micrortps_ros
 * git submodule update --remote
 
@@ -230,4 +233,5 @@ roslaunch px4_micrortps_ros px4_sitl_rtps.launch
 4. https://github.com/mavlink/mavros/tree/master
 5. https://mavlink.io/en/messages/common.html 
 6. https://discuss.px4.io/      (MAVROS/RTPS/ROS2 Category)
+
 
